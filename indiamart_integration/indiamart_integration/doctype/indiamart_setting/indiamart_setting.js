@@ -1,4 +1,4 @@
-frappe.ui.form.on('IndiaMart Setting', {
+frappe.ui.form.on('IndiaMart Settings', {
 	refresh: function(frm) {
 		var help_content =
 			`
