@@ -22,7 +22,7 @@ def add_source_lead():
 @frappe.whitelist()
 def sync_india_mart_lead(from_cron, from_date = None, to_date = None):
 	try:
-		india_mart_setting = frappe.get_doc("IndiaMart Setting","IndiaMart Setting")
+		india_mart_setting = frappe.get_doc("IndiaMart Settings","IndiaMart Setting")
 		if (not india_mart_setting.url
 			or not india_mart_setting.key):
 				frappe.throw(
