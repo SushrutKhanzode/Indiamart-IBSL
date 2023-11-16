@@ -8,7 +8,7 @@ app_publisher = "Sagar Ratan Garg"
 app_description = "Indiamart Integration"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "sagar1ratan1garg1@gmail.com"
+app_email = ""
 app_license = "MIT"
 
 # Includes in <head>
